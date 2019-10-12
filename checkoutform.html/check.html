@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+          * {
+          box-sizing: border-box; 
+        }
+         .column {
+          float: left;
+          width: 50%;
+          padding: 10px;
+          height: 500px; 
+        }
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        } 
+        .btn {
+              background-color: lawngreen;
+              color: aliceblue;
+              padding: 12px;
+              margin: 10px;
+              border: none;
+              width: 100%;
+              border-radius: 3px;
+              cursor: pointer;
+              font-size: 17px;   
+             }
+             btn:hover {
+                 background-color: darkgreen;
+             } 
+        </style>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    <title>Document</title>
+</head>
+      <style>
+    .div {
+        background-color:rgba(red, green, blue, alpha);
+        box-align: center;
+        width: 700px;
+        height: 600;
+        padding: 30px;
+         /* border: 2px solid black;  */
+    }
+</style>  
+
+  <body>
+        <fieldset class="div">
+         <div class="row"> 
+                <div class="column" style="background-color:#aaa;">
+                    <h2>Billing address</h2>
+                        <i style='font-size:24px' class='fas'>&#xf007;</i>  
+                        <label>Full Name</label><br>
+                        <input type="text" placeholder="John M Doe"><br><br>
+                        <i style='font-size:24px' class='fas'>&#xf0e0;</i>
+                        <label>Email</label><br>
+                        <input type="Email" placeholder="john@example.com"><br><br>
+                        ​<i style='font-size:24px' class='far'>&#xf2bb;</i>
+                        <label>Address</label><br>
+                        <input type=" text" placeholder="542 W 15th Street"><br><br>
+                        <i style='font-size:24px' class='fas'>&#xf66f;</i>
+                       <label>City</label><br>
+                        <input type="text" placeholder="New York"><br><br>
+                        <label>State</label><br>
+                        <input type="text" placeholder="NY"><br><br>
+                        <label>
+                                <input type="checkbox" name="addrSame" align:"right"> Shipping address same as billing 
+                            </label><br>
+                </div>
+             <div class="column" style="background-color:#aaa;">
+                    <h2>Payment</h2>
+                    <label>Accepted cards</label><br><br>
+                    <i style='font-size:24px' class='fab'>&#xf1f0;</i>&nbsp;<i class='fab fa-cc-amex' style='font-size:24px;color:blue'></i>&nbsp;<i class='fab fa-cc-mastercard' style='font-size:24px;color:red'></i>&nbsp;<i class='fab fa-cc-discover' style='font-size:24px;color:yellow'></i>
+                     <br><br>
+                     <label>Name on card</label><br>
+                     <input type="text" placeholder="John More Doe"> <br><br>
+                     <label>Credit card number</label><br>
+                     <input type="number" placeholder="1111-2222-3333-4444"><br><br>
+                     <label>Exp Month</label><br>
+                     <input type="text" placeholder="November"> <br><br>&nbsp;
+                     <label>Exp Year</label><br>
+                     <input type="number" placeholder="2020"><br>
+              </div>
+              <input type="submit" value="Continue to checkout" class="btn">                      
+ </fieldset> <br><br>
+  <h2> Cart</h2> 
+  <p> <a href="#">product 1</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="price">$15</span></p>
+  <p> <a href="#">product 2</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="price">$5</span></p>
+  <p> <a href="#">product 3</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="price">$8</span></p>
+  <p> <a href="#">product 4</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="price">$2</span></p>
+  <hr>
+  <p>Total <span class="price" style="color:black"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b>$30</b></span></p>
+   </body>
+</html>
